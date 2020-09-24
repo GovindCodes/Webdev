@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Uvilizer Box</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.1/css/all.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lora'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header id="header" class="w3-top">
+
+  <!-- Navbar large -->
+  <nav class="w3-bar" id="nav-bar">
+    <a class="nav-item w3-bar-item w3-button w3-hover-black w3-hide-large w3-right w3-large w3-padding-16" onclick="toggleNav()" title="Toggle Navigation Menu">
+      <i class="fas fa-bars"></i>
+    </a>
+    <div class="nav-item w3-bar-item">
+      <!-- <img id="header-img"src="https://cdn.shopify.com/s/files/1/1436/1414/t/2/assets/logo.png" alt="Lens Captions logo"> -->
+      <h3>UV TEC</h3>
+    </div>
+    <a href="#/" title="Shopping Cart" class="nav-item w3-bar-item w3-button w3-large w3-padding-16 w3-right"><i class="fas fa-shopping-cart"></i></a>
+    <a href="#about" class="nav-item nav-link w3-bar-item w3-button w3-hide-small w3-hide-medium w3-large w3-padding-16 w3-right">About Us</a>
+    <a href="#updates" class="nav-item nav-link w3-bar-item w3-button w3-hide-small w3-hide-medium w3-large w3-padding-16 w3-right">Updates</a>
+    <a href="#collections" class="nav-item nav-link w3-bar-item w3-button w3-hide-small w3-hide-medium w3-large w3-padding-16 w3-right">Collections</a>
+  </nav>
+
+  <!-- Navbar small/medium -->
+  <div id="nav-bar-small" class="w3-bar-block w3-white w3-hide w3-hide-large">
+    <a href="#collections" class="w3-bar-item w3-button w3-large" onclick="toggleNav()">Collections</a>
+    <a href="#updates" class="w3-bar-item w3-button w3-large" onclick="toggleNav()">Updates</a>
+    <a href="#about" class="w3-bar-item w3-button w3-large" onclick="toggleNav()">About Us</a>
+  </div>
+</header>
+
+
+<!-- Hero -->
+<div class="hero w3-display-container">
+  <div class="w3-display-left">
+    <div class="w3-center w3-padding-large w3-xxlarge"><span class="w3-large">Uvilizer Box</span><br>Uvlize to Be Alive<br>Your Personal Uv Disinfectant</div>
+  </div>
+</div>
+
+
+<!-- Text -->
+<section class="w3-content w3-container w3-padding-32">
+  <p></p>
+  <p>But still, something&rsquo;s missing&hellip; Are your lens caps just billboards for their manufacturers? They don&rsquo;t have to be. They can be canvases unto themselves. Help your camera express the creative personality you know it already has.</p>
+</section>
+
+
+<!-- Collections -->
+<a class="anchor" id="collections"></a>
+<section class="w3-content w3-container w3-padding-32">
+  <h2 class="w3-center">Featured Collections</h2>
+
+  <div class="w3-row-padding w3-stretch w3-center w3-padding-16">
+    <div class="w3-col m3">
+      <div class="w3-display-container collection">
+        <a href="#/">
+          <img class="collection-img" src="database/box3.jpeg">
+        </a>
+        <div class="collection-txt w3-display-middle w3-display-hover w3-text-white w3-xlarge">
+          <b>The Emoji Collection</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="w3-display-container collection">
+        <a href="#/">
+          <img class="collection-img" src="//cdn.shopify.com/s/files/1/1436/1414/collections/california-flag_grande.jpg?v=1499377382">
+        </a>
+        <div class="collection-txt w3-display-middle w3-display-hover w3-text-white w3-xlarge">
+          <b>The State Collection</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="w3-display-container collection">
+        <a href="#/">
+          <img class="collection-img" src="//cdn.shopify.com/s/files/1/1436/1414/collections/cute-puppy-with-heart_grande.jpg?v=1499377252">
+        </a>
+        <div class="collection-txt w3-display-middle w3-display-hover w3-text-white w3-xlarge">
+          <b>The Dog Collection</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m3">
+      <div class="w3-display-container collection">
+        <a href="#/">
+          <img class="collection-img" src="//cdn.shopify.com/s/files/1/1436/1414/collections/cartoon-kitten-silhouette_grande.jpg?v=1499376587">
+        </a>
+        <div class="collection-txt w3-display-middle w3-display-hover w3-text-white w3-xlarge">
+          <b>The Cat Collection</b>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Email Updates -->
+<a class="anchor" id="updates"></a>
+<section class="w3-content w3-container w3-padding-32">
+  <h2 class="w3-center">Email Updates</h2>
+  <p class="w3-center">Don&rsquo;t miss any new collections.</p>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <div class="w3-container flex-center">
+      <input id="email" name="email" type="email" class="w3-input w3-border" style="width: 20em;" placeholder="michael@example.com" required>
+      <input id="submit" type="submit" class="w3-button w3-black" value="SUBSCRIBE">
+    </div>
+  </form>
+</section>
+
+
+<!-- About Us -->
+<a class="anchor" id="about"></a>
+<section class="w3-content w3-container w3-padding-32">
+  <h2 class="w3-center">About Us</h2>
+  <p>We&rsquo;re Corrie and Ty, a wife and husband duo with a passion for creativity. Photography is Corrie&rsquo;s creative outlet of choice&mdash;she&rsquo;s a published <a href="#/" title="Corrie Mick Photography">wedding and portrait photographer</a> based in Oregon (though she&rsquo;s known to travel the country).</p>
+  <p>One day after a weekend wedding excursion, while making sure everything was cleaned and put away properly, Corrie decided she was bored with the same old lens caps displaying the manufacturer&rsquo;s name. &ldquo;I&rsquo;m being creative; why can&rsquo;t my equipment be, too?!&rdquo; Thus Lens Captions was born.</p>
+  <p class="w3-center">
+    <img class="responsive-center" style="max-width: 100%;" src="//cdn.shopify.com/s/files/1/1436/1414/files/Lens_Captions_-_Corrie_Mick_Photography-49_grande.jpg?v=1475006907" alt="Ty and Corrie smiling at each other while Ty holds a lens cap that reads 'heart you'">
+  </p>
+</section>
+
+
+<!-- Video -->
+<section class="w3-content w3-container w3-padding-64">
+  <div class="vid-parent">
+    <iframe id="video" class="vid" src="https://www.youtube-nocookie.com/embed/Hr8QhMG8nMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</section>
+
+
+<hr class="w3-content">
+
+
+<!-- Footer -->
+<footer class="w3-padding-24">
+  <div class="w3-row w3-content">
+    <div class="w3-col l9 m7 s5 w3-row">
+      <div class="w3-col m6 w3-container">
+        <div><a class="w3-button w3-padding-small w3-hover-white" href="#/">Privacy Policy</a></div>
+        <div><a class="w3-button w3-padding-small w3-hover-white" href="#/">Contact Us</a></div>
+      </div>
+
+      <div class="w3-col m6 w3-container">
+        <div><a class="w3-button w3-padding-small w3-hover-white" href="#/"><i class="fab fa-facebook"></i> Facebook</a></div>
+        <div><a class="w3-button w3-padding-small w3-hover-white" href="#/"><i class="fab fa-instagram"></i> Instagram</a></div>
+      </div>
+    </div>
+
+    <div class="w3-col l3 m5 s7 w3-container">
+      <div class="w3-padding-small">&copy;&nbsp;2019, Lens Captions</div>
+    </div>
+  </div>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

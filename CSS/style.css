@@ -1,0 +1,38 @@
+/* fonts family */
+
+p{
+    font-family: pacifico;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* font size */
+
+h1{
+    font-size: 100px;
+}
+
+span{
+    font-size: 2.0em;
+}
+
+/* font-weight */
+p{
+    font-weight: bold;
+}
+
+/* line height */
+p{
+    line-height: 2;
+}
+
+/* text allign */
+h1{
+    text-align: center;
+}
+
+/* text decor */
+p{
+    text-decoration: underline;
+}

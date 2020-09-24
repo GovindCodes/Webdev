@@ -1,0 +1,14 @@
+p{
+    /* content width and height */
+
+    width: 50%;
+    height: 20px;
+    /* border */
+    border: 2px solid green;
+    /* Padding */
+
+    padding: 10  %;
+    /* margin */
+
+    margin: auto auto;
+}

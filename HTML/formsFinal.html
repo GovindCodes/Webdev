@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h1>Register</h1>
+<form action="">
+    <div>
+        <label for="">
+            First Name:
+            <input type="text">
+        </label>
+        <label for="">
+            Last Name:
+            <input type="text">
+        </label>
+    </div> 
+<div>
+    <label for="">
+        Male
+        <input name="gender" type="radio">
+    </label>
+    <label for="">
+        female
+        <input name="gender" type="radio">
+    </label>
+    <label for="">
+        others
+        <input name="gender" type="radio">
+    </label>
+</div>
+    <label for="">
+        Email:
+        <input name = email type="email" placeholder="your email" required>
+    </label>
+    <label for="">
+        PAssword:
+        <input name = pass type="text" placeholder="your password" pattern=".{5,10}" required title="passmust be between 5 to 10">
+    </label>
+<div>
+    <label for="">
+        Birthday:
+        <select name="" id="" >
+            <option value="" selected disabled>Month</option>
+            <option value="jan">jan</option>
+            <option value="">feb</option>
+            <option value="">march</option>
+        </select>
+        <select name="" id="">
+            <option value="" selected disabled>Day</option>
+            <option value="">01</option>
+            <option value="">02</option>
+            <option value="">03</option>
+        </select>
+        <select name="" id="">
+            <option value="" selected disabled>Year</option>
+            <option value="">2000</option>
+            <option value="">2001</option>
+            <option value="">2002</option>
+        </select>
+    </label>
+</div>
+<div>
+    <label for="">
+        I agree for terms and condition
+        <input type="checkbox">
+    </label>
+    <label for="">
+        <button>Submist</button>
+    </label>
+</div>
+</form>
+</body>
+</html>

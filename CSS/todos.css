@@ -1,0 +1,39 @@
+/* element selector */
+body{
+    color: red;
+}
+
+/* id selector */
+#special{
+    color: royalblue;
+}
+
+/* class selector */
+.completed{
+    text-decoration: line-through;
+}
+
+/* star selector */
+*{
+    border: 1px solid lightblue;
+}
+
+/* descendant selector */
+li a{
+    color: palevioletred;
+}
+
+/* adjacent selector */
+h4 + ul{
+    border: 4px solid red;
+}
+
+/* attribute selector */
+a[href = "http://google.com"]{
+    background: rgb(65, 225, 164);
+}
+
+/* input[type="checkbox"]{    } */
+
+/* nth of type */
+li:

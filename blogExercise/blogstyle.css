@@ -1,0 +1,21 @@
+h4{
+    color: rgb(118, 194, 230);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+body{
+    width: 700px;
+    margin: 10px  auto;
+    border: rgba(30, 30, 31, 0.151) 20px solid;
+    padding: 20px;
+    font-family: Source Sans Pro;
+
+}
+#first{
+    border-left: solid rgb(68, 64, 64) 5px;
+    padding-left: 1%;
+}
+h1{
+    color: black;
+    font-size: 2rem;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<style type="text/css">
+    .pink{
+        background: pink;
+        border: aqua solid 1px;
+    }
+    .orange{
+        background: orange;
+        border: 1px dashed red;
+        height: 50px;
+    }
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>grid</h1>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 pink">
+                <div cla ss="row">
+                    <div class="col-lg-6 orange">First part</div>
+                    <div class="col-lg-6 orange">First part</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pink">col</div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pink">col</div> 
+            <div class="col-md-3 col-sm-6 col-xs-12 pink">
+                <div class="row">
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                    <div class="col-lg-2 orange"></div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
